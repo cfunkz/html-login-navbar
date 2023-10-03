@@ -22,6 +22,7 @@ a{
   font-size: 50px;
   margin-right: auto; /* Push the <h2> to the left */
   color: white;
+  padding: 25px;
 }
 @keyframes moveLogin{
     0% {
@@ -155,4 +156,7 @@ a{
     text-align: center;
     margin: 20px;
     font-size: 14px;
+}
+.nav-container a:hover{
+  background-color: black;
 }
