@@ -11,7 +11,7 @@
     background: #008080;
     height: 10%;
 }
-a{
+a{ /*Rework the <a> menu tags*/
     text-decoration: none;
     padding: 25px;
     font-weight: bold;
@@ -21,7 +21,7 @@ a{
       text-shadow: 0px -2px 0px rgba(0,0,0,1), 0 0 5px #008080,0 -4px 15px rgba(255,255,255,0.5);
     }
 }
-a::after{
+a::after{ /* Create after effect on <a> tags*/
     content: "";
     display: block;
     position: relative;
@@ -31,7 +31,7 @@ a::after{
     transition: transform 0.2s ease-in-out;
     transform: scale(0);
 }
-a:hover::after{
+a:hover::after{ /*On hover call after effect*/
     transform: scale(1);
 }
 .logo {
@@ -175,8 +175,4 @@ a:hover::after{
 }
 .nav-container a:hover{
   background-color: black;
-}
-.nav-container a.active {
-  background-color: #04AA6D;
-  color: white;
 }
