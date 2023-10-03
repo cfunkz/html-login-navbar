@@ -53,7 +53,7 @@ a{
     height: 380px;
     top: 40%;
     left: 50%;
-    transform: translate(-40%, -50%);
+    transform: translate(-50%, -50%);
     background: white;
     padding: auto;
     border-radius: 2px;
