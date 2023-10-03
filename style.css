@@ -93,7 +93,7 @@ a:hover::after{ /*On hover call after effect*/
   border-radius: 2px;
   background: transparent;
   border-bottom: solid;
-  border-color: black;
+  border-color: #002626;
   cursor: pointer;
   color: white;
 }
@@ -107,7 +107,7 @@ a:hover::after{ /*On hover call after effect*/
   border-radius: 2px;
   background: transparent;
   border-bottom: solid;
-  border-color: black;
+  border-color: #002626;
   cursor: pointer;
   color: white;
 }
@@ -130,9 +130,8 @@ a:hover::after{ /*On hover call after effect*/
     outline: none;
     border-bottom: solid;
     border-width: 2px;
-    border-color: white;
+    border-color: #002626;
     background-color: #008080;
-    color: white;
 }
 .entry-field::placeholder {
     color: white; /* Change placeholder text color to white */
