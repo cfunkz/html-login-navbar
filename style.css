@@ -130,6 +130,7 @@ a:hover::after{ /*On hover call after effect*/
 .entry-field{
     padding: 14px 50px;
     padding-left: 10px;
+    padding-right: 10px;
     margin: 3px 50px;
     border: none;
     outline: none;
