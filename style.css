@@ -59,7 +59,9 @@ a:hover::after{ /*On hover call after effect*/
 }
 .main-container{
     position: absolute;
-    background: #002626;
+    background-image: url('https://wallpaper.dog/large/11034597.jpg');
+    background-color: #002626; /* The color you want as a filter */
+    background-blend-mode: multiply;
     width: 100%;
     height: 100vh;
     background-size: cover;
