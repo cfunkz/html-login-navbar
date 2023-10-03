@@ -201,9 +201,10 @@ ul li{}
   border: none;
   color: white;
   font-weight: bold;
-}
-.discord-button:hover{
-    background: #004c4c;
+  cursor: pointer;
+  &:hover{
+        background: #004c4c;
+  }
 }
 .google-button {
   padding: 10px 10px;
@@ -211,9 +212,10 @@ ul li{}
   border: none;
   color: white;
   font-weight: bold;
-}
-.google-button:hover{
-    background: #004c4c;
+  cursor: pointer;
+  &:hover{
+        background: #004c4c;
+  }
 }
 .facebook-button {
   padding: 10px 10px;
@@ -221,9 +223,10 @@ ul li{}
   border: none;
   color: white;
   font-weight: bold;
-}
-.facebook-button:hover{
-    background: #004c4c;
+  cursor: pointer;
+  &:hover{
+        background: #004c4c;
+  }
 }
 .social-login {
   margin-top: 10px;
