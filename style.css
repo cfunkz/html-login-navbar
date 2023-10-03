@@ -151,6 +151,7 @@ ul li{}
 }
 #submit-login:hover{
     background: #004c4c;
+    transform: translateY(-3px);
 }
 #submit-login{
     background: #002626;
@@ -175,6 +176,7 @@ ul li{}
 }
 #submit-register:hover{
     background: #004c4c;
+    transform: translateY(-3px);
 }
 #submit-register{
     background: #002626;
