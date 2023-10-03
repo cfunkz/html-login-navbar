@@ -96,6 +96,7 @@ a:hover::after{ /*On hover call after effect*/
   border-color: #002626;
   cursor: pointer;
   color: white;
+  font-weight: bold;
 }
 #sign-up-label:hover{
     background: #004c4c;
@@ -110,6 +111,7 @@ a:hover::after{ /*On hover call after effect*/
   border-color: #002626;
   cursor: pointer;
   color: white;
+  font-weight: bold;
 }
 #back-label:hover{
     background: #004c4c;
@@ -148,6 +150,7 @@ a:hover::after{ /*On hover call after effect*/
     border-radius: 2px;
     color: white;
     cursor: pointer;
+    font-weight: bold;
 }
 .password-check{
     text-align: center;
@@ -171,6 +174,7 @@ a:hover::after{ /*On hover call after effect*/
     border-radius: 2px;
     color: white;
     cursor: pointer;
+    font-weight: bold;
 }
 .tnc-check{
     text-align: center;
