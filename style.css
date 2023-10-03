@@ -164,6 +164,7 @@ ul li{}
     cursor: pointer;
     font-weight: bold;
 }
+.
 .password-check{
     text-align: center;
     margin: 20px;
@@ -206,6 +207,7 @@ ul li{}
   cursor: pointer;
   &:hover{
         background: #004c4c;
+        transform: translateY(-3px);
   }
 }
 .google-button {
@@ -217,6 +219,7 @@ ul li{}
   cursor: pointer;
   &:hover{
         background: #004c4c;
+        transform: translateY(-3px);
   }
 }
 .facebook-button {
@@ -228,6 +231,7 @@ ul li{}
   cursor: pointer;
   &:hover{
         background: #004c4c;
+        transform: translateY(-3px);
   }
 }
 .social-login {
