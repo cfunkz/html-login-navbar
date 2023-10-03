@@ -58,12 +58,18 @@ a{
     padding: auto;
     border-radius: 2px;
     animation: moveLogin 1s;
+    overflow: hidden;
+
 }
-.sign-up-container{
+.sign-up-button-container{
   margin: 25px 25px;
   text-align: right;
 }
-#sign-up{
+.login-button-container{
+  margin: 25px 25px;
+  text-align: left;
+}
+#sign-up-label{
   border: 0;
   height: 40px;
   width: 100px;
@@ -74,15 +80,30 @@ a{
   cursor: pointer;
   color: black;
 }
-#sign-up:hover{
+#sign-up-label:hover{
     background: #80808f;
 }
-.login-form{
+#back-label{
+  border: 0;
+  height: 40px;
+  width: 100px;
+  border-radius: 2px;
+  background: transparent;
+  border-bottom: solid;
+  border-color: black;
+  cursor: pointer;
+  color: black;
+}
+#back-label:hover{
+    background: #80808f;
+}
+.entry-form{
     text-align: center;
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition: 0.3s;
 }
 .entry-field{
     padding: 14px 25px;
@@ -108,6 +129,29 @@ a{
     cursor: pointer;
 }
 .password-check{
+    text-align: center;
+    margin: 20px;
+    font-size: 14px;
+}
+
+#register-form{
+  left: 500px;
+  position: absolute;
+}
+#submit-register:hover{
+    background: #80808f;
+}
+#submit-register{
+    background: #008080;
+    margin: 25px;
+    border: 0;
+    height: 40px;
+    width: 100px;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+}
+.tnc-check{
     text-align: center;
     margin: 20px;
     font-size: 14px;
