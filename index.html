@@ -5,18 +5,19 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div class="nav-container">
+    <div class="main-container">
         <nav class="navigaton-bar">
           <h2 class="logo">LOGO</h2>
           <a href="#">Home</a>
           <a href="#">About</a>
           <a href="#">Contact</a>
+          <div class="underbar"></div>
         </nav>
         <div class="login-container">
             <form id="login-form"class="entry-form" method="get">
                 <div class="sign-up-button-container">
                   <div id="tg-button"></div>
-                  <button id="sign-up-label" type="button" onclick="register()"><b>SIGN UP</b> ➡</button>
+                  <button id="sign-up-label" type="button" onclick="register()">SIGN UP ➡</button>
                 </div>
                 <label>LOG INTO ACCOUNT</label>
                 <input class="entry-field" type="email" placeholder="E-Mail">
@@ -29,7 +30,7 @@
             <form id="register-form" class="entry-form" method="post">
                 <div class="login-button-container">
                   <div id="tg-button"></div>
-                  <button id="back-label" type="button" onclick="login()">⬅ <b>BACK</b></button>
+                  <button id="back-label" type="button" onclick="login()">⬅ BACK</button>
                 </div>
                 <label>REGISTER</label>
                 <input class="entry-field" type="text" placeholder="Username">
