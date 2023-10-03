@@ -133,7 +133,7 @@ a:hover::after{ /*On hover call after effect*/
     border-bottom: solid;
     border-width: 2px;
     border-color: #002626;
-    background-color: #008080;
+    background-color: #329999;
 }
 .entry-field::placeholder {
     color: white; /* Change placeholder text color to white */
