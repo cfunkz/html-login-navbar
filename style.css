@@ -38,6 +38,7 @@ li::after{ /* Create after effect on <a> tags*/
 li:hover::after{ /*On hover call after effect*/
     transform: scale(1);
 }
+ul li{}
 .logo {
   font-size: 50px;
   text-decoration: none;
@@ -193,4 +194,37 @@ li:hover::after{ /*On hover call after effect*/
 }
 .main-container li:hover{
   background-color: #002626;
+}
+.discord-button {
+  padding: 10px 10px;
+  background-color: #002626;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+.discord-button:hover{
+    background: #004c4c;
+}
+.google-button {
+  padding: 10px 10px;
+  background-color: #002626;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+.google-button:hover{
+    background: #004c4c;
+}
+.facebook-button {
+  padding: 10px 10px;
+  background-color: #002626;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+.facebook-button:hover{
+    background: #004c4c;
+}
+.social-login {
+  margin-top: 10px;
 }
