@@ -25,22 +25,22 @@ a{
 }
 @keyframes moveLogin{
     0% {
-        top: 35%;
+        top: 40%;
     }
     25% {
-        top: 45%;
+        top: 35%;
     }
     50% {
-        top: 37%;
+        top: 45%;
     }
     75% {
-        top: 42%;
+        top: 37%;
     }
     100% {
         top: 40%;
     }
 }
-.main-container{
+.nav-container{
     position: absolute;
     background: black;
     width: 100%;
