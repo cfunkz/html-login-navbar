@@ -98,7 +98,7 @@ a:hover::after{ /*On hover call after effect*/
   color: white;
 }
 #sign-up-label:hover{
-    background: #002626;
+    background: #004c4c;
 }
 #back-label{
   border: 0;
@@ -112,7 +112,7 @@ a:hover::after{ /*On hover call after effect*/
   color: white;
 }
 #back-label:hover{
-    background: #80808f;
+    background: #004c4c;
 }
 .entry-form{
     text-align: center;
@@ -138,10 +138,10 @@ a:hover::after{ /*On hover call after effect*/
     color: white; /* Change placeholder text color to white */
 }
 #submit-login:hover{
-    background: #002626;
+    background: #004c4c;
 }
 #submit-login{
-    background: #004c4c;
+    background: #002626;
     margin: 25px;
     border: 0;
     height: 40px;
@@ -161,10 +161,10 @@ a:hover::after{ /*On hover call after effect*/
   position: absolute;
 }
 #submit-register:hover{
-    background: #002626;
+    background: #004c4c;
 }
 #submit-register{
-    background: #008080;
+    background: #002626;
     margin: 25px;
     border: 0;
     height: 40px;
