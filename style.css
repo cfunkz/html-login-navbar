@@ -71,7 +71,7 @@ a:hover::after{ /*On hover call after effect*/
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: white;
+    background: #008080;
     padding: auto;
     border-radius: 2px;
     animation: moveLogin 1s;
@@ -95,10 +95,10 @@ a:hover::after{ /*On hover call after effect*/
   border-bottom: solid;
   border-color: black;
   cursor: pointer;
-  color: black;
+  color: white;
 }
 #sign-up-label:hover{
-    background: #80808f;
+    background: #002626;
 }
 #back-label{
   border: 0;
@@ -109,7 +109,7 @@ a:hover::after{ /*On hover call after effect*/
   border-bottom: solid;
   border-color: black;
   cursor: pointer;
-  color: black;
+  color: white;
 }
 #back-label:hover{
     background: #80808f;
@@ -121,6 +121,7 @@ a:hover::after{ /*On hover call after effect*/
     left: 50%;
     transform: translate(-50%, -50%);
     transition: 0.3s;
+    color: white;
 }
 .entry-field{
     padding: 14px 25px;
@@ -129,14 +130,18 @@ a:hover::after{ /*On hover call after effect*/
     outline: none;
     border-bottom: solid;
     border-width: 2px;
-    border-color: #80808f;
-    opacity: 0.9;
+    border-color: white;
+    background-color: #008080;
+    color: white;
+}
+.entry-field::placeholder {
+    color: white; /* Change placeholder text color to white */
 }
 #submit-login:hover{
-    background: #80808f;
+    background: #002626;
 }
 #submit-login{
-    background: #008080;
+    background: #004c4c;
     margin: 25px;
     border: 0;
     height: 40px;
@@ -156,7 +161,7 @@ a:hover::after{ /*On hover call after effect*/
   position: absolute;
 }
 #submit-register:hover{
-    background: #80808f;
+    background: #002626;
 }
 #submit-register{
     background: #008080;
