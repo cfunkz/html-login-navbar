@@ -5,23 +5,25 @@
 }
 .navigaton-bar{
     text-align: right;
+    list-style: none;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     background: #008080;
     height: 10%;
 }
-a{ /*Rework the <a> menu tags*/
+li{ /*Rework the <a> menu tags*/
     text-decoration: none;
     padding: 25px;
     font-weight: bold;
     font-size: 25px;
     color:white;
+    cursor: pointer;
     &:hover{
       text-shadow: 0px -2px 0px rgba(0,0,0,1), 0 0 5px #008080,0 -4px 15px rgba(255,255,255,0.5);
     }
 }
-a::after{ /* Create after effect on <a> tags*/
+li::after{ /* Create after effect on <a> tags*/
     content: "";
     display: block;
     position: relative;
@@ -31,12 +33,12 @@ a::after{ /* Create after effect on <a> tags*/
     transition: transform 0.2s ease-in-out;
     transform: scale(0);
 }
-a:hover::after{ /*On hover call after effect*/
+li:hover::after{ /*On hover call after effect*/
     transform: scale(1);
 }
 .logo {
   font-size: 50px;
-  margin-right: auto; /* Push the <h2> to the left */
+  margin-right: auto;
   color: white;
   padding: 25px;
 }
@@ -126,6 +128,7 @@ a:hover::after{ /*On hover call after effect*/
     transform: translate(-50%, -50%);
     transition: 0.3s;
     color: white;
+
 }
 .entry-field{
     padding: 14px 50px;
@@ -135,6 +138,7 @@ a:hover::after{ /*On hover call after effect*/
     border: none;
     outline: none;
     border-bottom: solid;
+    border-left: solid;
     border-width: 2px;
     border-color: #002626;
     background-color: #329999;
@@ -185,6 +189,6 @@ a:hover::after{ /*On hover call after effect*/
     margin: 20px;
     font-size: 14px;
 }
-.main-container a:hover{
+.main-container li:hover{
   background-color: #002626;
 }
