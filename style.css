@@ -9,7 +9,7 @@
     justify-content: flex-end;
     align-items: center;
     background: #008080;
-    height: 75px;
+    height: 10%;
 }
 a{
     text-decoration: none;
@@ -25,19 +25,19 @@ a{
 }
 @keyframes moveLogin{
     0% {
-        top: 40%;
+        top: 35%;
     }
     25% {
-        top: 60%;
+        top: 45%;
     }
     50% {
-        top: 47%;
+        top: 37%;
     }
     75% {
-        top: 52%;
+        top: 42%;
     }
     100% {
-        top: 50%;
+        top: 40%;
     }
 }
 .main-container{
@@ -51,9 +51,9 @@ a{
     position: relative;
     width: 340px;
     height: 380px;
-    top: 50%;
+    top: 40%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-40%, -50%);
     background: white;
     padding: auto;
     border-radius: 2px;
